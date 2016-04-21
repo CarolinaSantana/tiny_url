@@ -63,6 +63,9 @@ end
 
 group :development do
   gem 'web-console', '~> 2.0'
+  # The travis gem includes both a command line client and a Ruby library to interface with a Travis CI service
+  gem 'travis'
+
 end
 
 
