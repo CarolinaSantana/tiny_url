@@ -51,6 +51,12 @@ end
 gem 'puma'
 gem 'bootstrap-sass', '~> 3.0'
 
+gem 'ffaker'
+
+# will_paginate is a pagination library that integrates with Ruby on Rails,...
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+
 group :test do
   gem 'capybara'
 end
